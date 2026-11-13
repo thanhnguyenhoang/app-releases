@@ -1,0 +1,37 @@
+# Đăng bản release của Bé Tập Viết khi đẩy tag tap-viet-v<version>.
+# Tag phải trỏ tới commit có sẵn tap-viet/tap-viet-<version>.apk (và RELEASE_NOTES-<version>.md nếu có).
+name: Publish Tap Viet
+
+on:
+  push:
+    tags: ["tap-viet-v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Kiểm tra file
+        id: v
+        run: |
+          V="${GITHUB_REF_NAME#tap-viet-v}"
+          APK="tap-viet/tap-viet-$V.apk"
+          test -f "$APK" || { echo "::error::Không thấy $APK"; exit 1; }
+          NOTES="tap-viet/RELEASE_NOTES-$V.md"
+          [ -f "$NOTES" ] || echo "Bé Tập Viết $V" > "$NOTES"
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "apk=$APK" >> "$GITHUB_OUTPUT"
+          echo "notes=$NOTES" >> "$GITHUB_OUTPUT"
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Bé Tập Viết v${{ steps.v.outputs.version }}
+          body_path: ${{ steps.v.outputs.notes }}
+          files: ${{ steps.v.outputs.apk }}
+          # Không đặt làm "latest" để không ảnh hưởng tới các app khác trong repo.
+          make_latest: "false"
