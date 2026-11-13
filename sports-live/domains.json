@@ -42,10 +42,10 @@
   },
   "backup_streams": [],
   "app_update": {
-    "version_code": 15,
-    "version_name": "1.0.14",
-    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.14/sport-live-1.0.14.apk",
-    "changelog": "- Làm nổi bật giờ thi đấu trên thẻ trận đấu (MatchCard)\n- Gợi ý kênh TV chỉ hiển thị các kênh cùng nhóm đang xem\n- Lọc bỏ trận đã kết thúc (FT) và tự động làm mới danh sách mỗi 2 phút / khi quay lại app\n- Giữ link trực tiếp cho TV Nước Ngoài và không báo lỗi Slack giả cho trận chưa đá",
+    "version_code": 16,
+    "version_name": "1.0.15",
+    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.15/sport-live-1.0.15.apk",
+    "changelog": "- Hiển thị logo/cờ đội bóng và logo giải đấu trên thẻ trận đấu và banner nổi bật",
     "force_update": false
   }
 }
