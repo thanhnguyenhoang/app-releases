@@ -42,10 +42,10 @@
   },
   "backup_streams": [],
   "app_update": {
-    "version_code": 16,
-    "version_name": "1.0.15",
-    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.15/sport-live-1.0.15.apk",
-    "changelog": "- Hiển thị logo/cờ đội bóng và logo giải đấu trên thẻ trận đấu và banner nổi bật",
+    "version_code": 17,
+    "version_name": "1.0.16",
+    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.16/sport-live-1.0.16.apk",
+    "changelog": "- Danh sách các trận/kênh khác trong màn hình xem trực tiếp dùng chung layout thẻ và lưới giống màn hình chính",
     "force_update": false
   }
 }
