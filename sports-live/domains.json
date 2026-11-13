@@ -26,14 +26,20 @@
       "mirrors": [
         "https://vebotv.vip"
       ]
+    },
+    "giovang": {
+      "primary": "https://live-api.keonhacaitp.one"
+    },
+    "nembien": {
+      "primary": "https://nembientv.com"
     }
   },
   "backup_streams": [],
   "app_update": {
-    "version_code": 12,
-    "version_name": "1.0.11",
-    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.11/sport-live-1.0.11.apk",
-    "changelog": "- Gom nhóm kênh Truyền Hình thu gọn/mở rộng (Accordion) kèm chip lọc nhóm và ô tìm nhanh tên kênh\n- Sửa lỗi tràn chữ trên thẻ kênh TV khi hiển thị lưới nhiều cột",
+    "version_code": 13,
+    "version_name": "1.0.12",
+    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.12/sport-live-1.0.12.apk",
+    "changelog": "- Tích hợp thêm nguồn phát Giờ Vàng và Ném Biên (Bóng chuyền, Bóng rổ, Bóng đá...)\n- Sửa lỗi phát các kênh TV vmttv/tv360 với User-Agent phù hợp\n- Tối ưu hiển thị lưới 2 cột cho máy tính bảng (Xiaomi Pad 11\")",
     "force_update": false
   }
 }
