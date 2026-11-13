@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-11-12",
+  "proxy_enabled": true,
+  "worker_proxy_url": "https://sports-proxy.thanh-nguyenhoang12.workers.dev",
+  "providers": {
+    "xoilac": {
+      "primary": "https://xoilacf.top",
+      "mirrors": [
+        "https://xoilac-tvv.live",
+        "https://xoilac2tv.me"
+      ]
+    },
+    "chuoichien": {
+      "primary": "https://api-v2.chuoichientv.com",
+      "mirrors": [
+        "https://live11.chuoichientv.me"
+      ]
+    },
+    "socolive": {
+      "primary": "https://json.vnres.co/match_recommend.json",
+      "referer": "https://socolive.pro/"
+    },
+    "vsc": {
+      "primary": "https://vsc9.vip",
+      "mirrors": [
+        "https://vebotv.vip"
+      ]
+    }
+  },
+  "backup_streams": [],
+  "app_update": {
+    "version_code": 10,
+    "version_name": "1.0.9",
+    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.9/sport-live-1.0.9.apk",
+    "changelog": "- Bổ sung Debug Log trong Cài đặt kèm nút Gửi Slack chẩn đoán lỗi phát\n- Tự động gửi ngầm lỗi phát sinh (init & runtime) về Slack, giữ giao diện sạch cho người dùng",
+    "force_update": false
+  }
+}
