@@ -30,10 +30,10 @@
   },
   "backup_streams": [],
   "app_update": {
-    "version_code": 10,
-    "version_name": "1.0.9",
-    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.9/sport-live-1.0.9.apk",
-    "changelog": "- Bổ sung Debug Log trong Cài đặt kèm nút Gửi Slack chẩn đoán lỗi phát\n- Tự động gửi ngầm lỗi phát sinh (init & runtime) về Slack, giữ giao diện sạch cho người dùng",
+    "version_code": 11,
+    "version_name": "1.0.10",
+    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.10/sport-live-1.0.10.apk",
+    "changelog": "- Hỗ trợ phát các kênh TV360 MPEG-DASH + ClearKey DRM trên Android\n- Tự động nhận diện định dạng DASH/HLS và User-Agent từ playlist M3U",
     "force_update": false
   }
 }
