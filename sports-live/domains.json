@@ -40,10 +40,10 @@
   },
   "backup_streams": [],
   "app_update": {
-    "version_code": 22,
-    "version_name": "1.0.21",
-    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.21/sport-live-1.0.21.apk",
-    "changelog": "- Thêm danh sách Kênh Bóng Chuyền Việt Nam (@kenhbongchuyenvietnam/streams) lên đầu tab Bóng chuyền YT\n- Giữ danh sách quốc tế (@volleyballworld/streams) ngay bên dưới",
+    "version_code": 23,
+    "version_name": "1.0.22",
+    "apk_url": "https://github.com/thanhnguyenhoang/app-releases/releases/download/sports-live-v1.0.22/sport-live-1.0.22.apk",
+    "changelog": "- Tối ưu trình phát YouTube (tự phát, vòng xoay tải, lọc quảng cáo nhẹ CPU, giải phóng khi thoát)\n- Hỗ trợ toàn màn hình ngang (full-width) khi bấm nút Full trên YouTube player",
     "force_update": false
   }
 }
